@@ -1,0 +1,209 @@
+:root{
+	--dark-color:#191919;
+	--white-color:#FFFFFF;
+	--purple-color:rgb(117,41,149);
+	--blue-color:#00B2B1;
+    --bluelight-color:rgba(0,178,209,0.47);
+	--gray-color:#828282;
+	--ligh-color:#F3F3F3;
+    --purplelight-color:rgba(117, 41, 149, 0.45);
+}
+
+header{
+    margin-bottom: 5px;
+}
+
+.header-logo img{
+    max-width: 300px;
+    margin-bottom: 10px;
+}
+
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+button i{
+    margin-right: 7px;
+}
+
+.header-buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.header-logo{
+    text-align: center;
+}
+
+.header-buttons button{
+    margin-right: 10px;
+}
+
+.btn-primary{
+    color: var(--dark-color);
+    background-color: var(--blue-color);
+    border-color: var(--blue-color);
+    font-weight: bold;
+}
+.btn-primary:hover {
+    color: var(--blue-color);
+    background-color:var(--white-color);
+    border-color: var(--blue-color);
+    font-weight: bold;
+}
+
+.btn-outline-primary{
+    color: var(--purple-color);
+    border-color: var(--purple-color);
+    font-weight: bold;
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--purple-color);
+    border-color: var(--white-color);
+}
+
+.navbar-brand img{
+    width: 60px;
+}
+
+#agenda{
+    margin-top: 0.1rem; 
+}
+
+.agenda-cita{
+    background-image: url(../img/fondo.jpg);
+    padding: 3rem;
+}
+.agenda-cita h1{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.agenda-promocion{
+    background-color: var(--purple-color);
+    padding: 3rem;
+}
+
+.agenda-promocion h1{
+    font-size: 1.5rem;
+    color: var(--white-color);
+    text-shadow: 2px 2px 2px var(--dark-color);
+}
+
+.agenda-promocion img{
+    border: 7px solid var(--dark-color);
+}
+
+.tseccion{
+    color: var(--purple-color);
+    font-weight: bolder;
+    text-shadow: 2px 2px 3px var(--dark-color);
+}
+.card{
+    border: none;
+}
+.card img{
+    max-width: 200px;
+}
+
+.card p{
+    text-align: justify;
+    margin: 0;
+}
+
+footer{
+    background-image: url(../img/fondo.jpg);
+}
+
+footer .row{
+    background: var(--purplelight-color);
+}
+
+footer .bi {
+    font-size: 60px;
+    color: var(--white-color);
+    margin: 0 auto;
+}
+
+footer .card{
+    background:none;
+}
+
+footer .text-center{
+    color:var(--white-color)
+}
+
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+
+#equipo .card img{
+    border-radius: 50%;
+    width: 60%;
+}
+
+#equipo .card{
+    padding: 0 50px;
+}
+
+#equipo .card-subtitle{
+    color:#191919
+}
+
+#equipo h5{
+    text-shadow: 2px 2px 2px #1919196e;
+}
+
+#form-login .form{
+    background: linear-gradient(#00b2b243, rgba(117, 41, 149, 0.281));
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px var(--dark-color);
+    backdrop-filter: blur(4px);
+}
+
+#form-login button{
+    width: 100%;
+    margin-bottom: 10px;
+    color: var(--white-color);
+}
+
+#form-login{
+    background-image: url(../img/bg-login.jpg);
+}
+
+#exampleInputPassword1, #exampleInputEmail1{
+    border:#00B2B1;
+    box-shadow: 1px 1px 2px var(--dark-color);
+}
+
+.button-login-registrar{
+    background-color: var(--purple-color);
+}
+
+.button-login-registrar:hover{
+    background-color:rgb(84, 0, 120);
+    transform: translateY(1px);
+    box-shadow: 2px 2px 2px var(--dark-color);
+    transition-duration: .1s;
+}
+
+.button-login-ingresar:hover{
+    background-color:#057171;
+    transform: translateY(1px);
+    box-shadow: 2px 2px 2px var(--dark-color);
+    transition-duration: .2s;
+}
+
+
+.iconlogin{
+    background-color: #ffffffc3;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.olvido a{
+    text-decoration: none;
+}
+
