@@ -68,6 +68,14 @@ button i{
     width: 60px;
 }
 
+.dropdown-menu{
+    background-color: var(--purplelight-color);
+}
+
+.dropdown-item{
+    color: var(--white-color);
+}
+
 #agenda{
     margin-top: 0.1rem; 
 }
@@ -239,4 +247,44 @@ iframe{
 
 .bton-form{
     text-align: center;
+}
+
+#dog-tips{
+    background-image: url(../img/doggy.png);
+    background-size: cover;
+    background-position-y:-70px ;
+}
+
+.perritu{
+    background-color: #000000ad;
+    color: var(--white-color);
+    border-radius: 10px;
+}
+
+.perritu:hover{
+    background-color: rgba(48, 6, 66, 0.818);
+}
+
+.perritu img{
+    width: 120px;
+}
+
+#cat-tips{
+    background-image: url(../img/cat.png);
+    background-size: cover;
+    background-position-y:-40px ;
+}
+
+.gatitu{
+    background-color: #ffffff2f;
+    color: var(--white-color);
+    border-radius: 10px;
+}
+
+.gatitu:hover{
+    background-color: rgba(48, 6, 66, 0.818);
+}
+
+.gatitu img{
+    width: 140px;
 }
