@@ -207,3 +207,36 @@ footer .text-center{
     text-decoration: none;
 }
 
+iframe{
+    width: 98%;
+    height: 300px;
+    border: 3.2px solid var(--purple-color);
+    border-radius: 10px;
+}
+
+.formulary span{
+    color: var(--purple-color);
+}
+
+.contact-form{
+    background-color: var(--purplelight-color);
+    border-radius: 10px;
+    padding: 0 15px 15px;
+}
+
+.formulary button{
+    background-color: var(--purple-color);
+    border: 5px double var(--white-color);
+    color: var(--white-color);
+    border-radius: 5px;
+}
+
+.formulary button:hover{
+    background-color: rgb(167, 45, 219);
+    border: 5px double var(--white-color);
+    color: #FFFFFF;
+}
+
+.bton-form{
+    text-align: center;
+}
