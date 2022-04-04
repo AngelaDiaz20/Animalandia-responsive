@@ -288,3 +288,120 @@ iframe{
 .gatitu img{
     width: 140px;
 }
+
+.usuario-dash{
+    color: var(--purple-color);
+    display: flex;
+    text-align: end;
+}
+
+.usuario-dash i{
+    color: var(--purple-color);
+}
+
+.img-dash{
+    border: 3px solid var(--purple-color);
+}
+
+.menu-dash a{
+    color:var(--ligh-color);
+    text-decoration: none;
+    padding: 1rem;
+    display: block;
+    font-family: 'Lato', sans-serif;
+}
+
+.menu-dash a:hover{
+    background-color: var(--purple-color);
+    border-left: 3px solid var(--white-color);
+    padding-left: 40px;
+    transition: all 2s;
+    color: var(--ligh-color);
+}
+
+.contenido-dash p{
+    text-align: justify;
+}
+
+.bton-blue{
+    padding: 5px 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: var(--blue-color);
+}
+
+.bton-purple{
+    padding: 5px 10px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    background-color: var(--purple-color);
+    color: var(--white-color);
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.dashboard-container a:visited{
+    color: var(--white-color);
+}
+
+.bton-purple i{
+    margin-right: 5px;
+}
+
+.bton-purple:hover, .bton-blue:hover{
+   box-shadow: 2px 2px 2px var(--dark-color);
+   transform:translateY(-0.8px);
+   color: var(--white-color);
+}
+
+.table tr th{
+    border: 2px solid var(--dark-color);
+    background-color: var(--purple-color);
+    padding: 7px 0; 
+}
+
+.table td{
+    border: 2px solid var(--dark-color);
+    text-align: center;
+    font-weight: 500;
+}
+
+.dashboard-container .card-text{
+    font-size: 50px;
+}
+
+#pedidos .dashboard-container .card{
+    background-color: var(--bluelight-color);
+    cursor: pointer;
+}
+
+#pedidos .dashboard-container .card2 .card{
+    background-color: var(--purplelight-color);
+    cursor: pointer;
+}
+
+#pedidos .dashboard-container .card-text{
+    color: var(--white-color);
+    text-shadow: 2px 2px 2px var(--dark-color);
+}
+
+#pedidos .dashboard-container .card i{
+    margin-right: 10px;
+}
+
+#pedidos .dashboard-container .card:hover{
+    box-shadow: 2px 2px 2px var(--dark-color);
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+}
+
+.dashboard-container .report .info-contacto img{
+    width: 200px;
+}
+
+#mapa{
+    height: 400px;
+}

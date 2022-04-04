@@ -11263,4 +11263,10 @@ textarea.form-control-lg {
   }
 }
 
+@media (min-width: 992px){
+  .dash{
+      height: 83.5vh;
+  }
+}
+
 /*# sourceMappingURL=bootstrap.css.map */
