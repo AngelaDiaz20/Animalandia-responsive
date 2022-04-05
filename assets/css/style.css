@@ -414,6 +414,11 @@ iframe{
     background-size: cover;
 }
 
+#dog-tips .perritu a, #cat-tips .gatitu a{
+    text-decoration: none;
+    color: var(--white-color);
+}
+
 #tips-perritus .perritu{
     background-color: rgba(117, 41, 149, 0.592);
     backdrop-filter: blur(3px);
